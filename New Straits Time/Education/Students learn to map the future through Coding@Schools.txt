@@ -1,0 +1,28 @@
+4 OCTOBER 2017
+Technology is taking over the world and who better to harness and map it other than students — our future generation — by learning to code from young.
+
+From apps for young students to learn about Malaysia’s National Day, to apps that run the school’s schedules and class information to make students’ and teachers’ lives easier, there was no shortage of good ideas from the batch of students who attended the Coding@Schools Central Region Hackathon at the Ministry of Finance building in Putrajaya recently in September 2017.
+
+During the two-day Hackathon, students learnt to build their own apps using LiveCode — an easy programming platform for those who want to make their own apps.
+
+At the end of the programme, two top teams from the lower secondary category and one top team from the primary school category were selected to participate in the National Code Challenge in November 2017 which will bring together top teams from other regions and Coding@Schools initiatives.
+
+SK Tun Hussein Onn, Cheras, SMK Seri Indah, Seri Kembangan and SMK Sultan Abdul Samad, Petaling Jaya emerged tops beating other teams from 15 secondary schools and 8 primary schools in Kuala Lumpur, Selangor and Negeri Sembilan.
+
+SMK Seri Indah advisory teacher, Mazaida Ali said: “These Form 1 students are fast learners. Once they understood what they had to do, they set about developing their app with enthusiasm.”
+
+Mazaida, who was trained in Computer Science, felt that the programme is a good platform to encourage school students to apply technology in their daily lives at school.
+
+Her team from SMK Seri Indah built a user-friendly app to teach students about historical places in Malaysia called TouristGo. They got the idea from the national school history syllabus for Form 1 students and did it because they felt it would greatly benefit students in schools as well as people who visit Malaysia.
+
+The teacher accompanying the top team in the primary school category, SK Tun Hussein Onn, Muslim Hj Tamsir said: “Coding is not just for adults.”
+
+“In fact, the younger the students, the faster they seem to be able to grasp the programming concepts and knowledge taught,” he added.
+
+Muslim had earlier familiarised himself on how to use the LiveCode for two days and gave the students a one-day training class prior to their participation in the Hackathon.
+
+When it was time to develop the app, Muslim sat together with his students to guide and steer them in the right direction. However, the students came up with the idea for the app themselves as they felt it would be helpful to have one that teaches about the themes and logos for Malaysia’s National Day celebrations from 1975 till today. Suffice to say, the students had to do a lot of research and they managed to find all the information they needed to put into the app.
+
+Muslim himself is no stranger to student coding challenges. In 2015, he and his year 6 team of students emerged winners at the 2015 Asian Cyberlink Camp in Bandung, Indonesia for their app.
+
+When asked if he will continue teaching students coding at school, Muslim said: “We have a computer club at school with a total of 60 functional computers and netbooks. And with a good and reliable new YTL network access, we can definitely continue and add on to what the students have learnt here.”

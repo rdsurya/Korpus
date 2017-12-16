@@ -1,0 +1,26 @@
+25 OCTOBER 2017
+THE enhancement of the existing Malaysian Research and Education Network’s (Myren) online ecosystem to Myren-X, a 100 gigabit high speed broadband infrastructure, is set to be a gamechanger for the local higher education sector.
+
+Designed to be a dedicated network for research and learning activities with its own separate and independent gateway to the Internet, Myren-X will increase bandwidth capacity at public universities to a maximum of 100 gigabits-per-second (Gbps) and for other institutions under the Ministry of Higher Education (MOHE), up to 10 Gbps.
+
+It will also offer a bandwidth of more than one megabit-per-second (Mbps) per student.
+
+Datuk Kamel Mohamad, deputy secretary general (management) of the Higher Education Ministry, said: “Myren-X is an extension of Myren, which was established following the decision of the cabinet meeting in July 2003 and was officially launched in March 2005.”
+
+Myren, which initially was linked to 12 public universities, now includes 150 institutions, comprising 20 public universities, four private universities, 31 polytechnics, 85 community colleges, five teaching hospitals and five MOHE agencies.
+
+“Under Myren, all public universities received a maximum of two Gbps bandwidth speed as part of the general public Internet. However, Myren does not provision all 206 campuses of MOHE’s higher education institutions. Only the main campuses and select research laboratories have access to the national research and education network. Myren-X aims to connect all these campuses and provide inter-connections between them,” he added.
+
+The higher overall bandwidth speed and bigger capacity envisioned under Myren-X will allow huge amounts of data to move at higher speed, which is a requirement of teaching and learning activities.
+
+Myren-X will also enable big data research and experiments which consume huge network bandwidth and capacity like those in the fields of genome, telemedicine and particle physics.
+
+“Myren-X is also expected to further spur the implementation of programmes under the Redesigning Higher Education initiative stipulated in Malaysia’s Education Development Plan (Higher Education). It will facilitate new ways and methods in 21st century teaching and learning such as collaborative online learning, virtual classrooms and Massive Open Online Courses.
+
+“In addition, it will not only allow Malaysians to access overseas education online, but also enable foreigners to access education in Malaysia and bring Malaysian education overseas. Researchers in the country will have access to and collaborate with research communities as well as access international research labs in real-time,” added Kamel.
+
+By designing Myren-X as a separate infrastructure with its own independent network equipment, the risk of data contamination and corruption can be eliminated.
+
+“The separate network infrastructure and equipment give Myren-X the advantage of avoiding congestion in public Internet, which can potentially reduce its effectiveness for research and educational activities. The specialised dedicated experiment platform created by Myren-X will enable higher value research that Myren has not been able to facilitate such as telesurgery, detailed DNA analysis and particle physics collaboration with the European Organization for Nuclear Research in Switzerland.”
+
+With Myren-X availability at all 206 campuses of MOHE’s higher education institutions, students and researchers — regardless of their location — will enjoy the same standard of network facility.
