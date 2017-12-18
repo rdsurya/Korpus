@@ -6,7 +6,7 @@
         ?>
         <a href="/Korpus/index.php"><i class="fa fa-home"></i> Home</a>
         <a href="/Korpus/admin/index.php"><i class="fa fa-user-circle-o"></i> Manage admin</a>
-        <a href="#"><i class="fa fa-newspaper-o"></i> Manage news</a>
+        <a href="/Korpus/news/index.php"><i class="fa fa-newspaper-o"></i> Manage news</a>
         <a href="javascript:void(0)" onclick="logout()"><i class="fa fa-power-off"></i> Logout</a>
         <?php
     } else {
