@@ -9,7 +9,7 @@ $query = "SELECT title, category, date_format(created_date, '%d-%m-%Y') as tarik
 $result = mysqli_query($link, $query);
 
 if (mysqli_num_rows($result) > 0) {
-
+    $intWord = 0;
     while ($row = mysqli_fetch_assoc($result)) {
         $tolalWord = 0;
 
@@ -46,6 +46,7 @@ if (mysqli_num_rows($result) > 0) {
         }//end for sentence
 
         if (strcasecmp(trim($context), "") != 0) {
+            $intWord +=$tolalWord;
             echo "<tr class='text-center'>"
             . "<td>$tarikh</td>"
             . "<td>$title</td>"
@@ -55,6 +56,10 @@ if (mysqli_num_rows($result) > 0) {
             . "</tr>";
         }
     }//end while
+    
+    if($intWord < 1){
+        echo "<tr><td colspan='5'><center>No result found!</center></td></tr>";
+    }
 } else {
     echo "<tr><td colspan='5'><center>No result found!</center></td></tr>";
 }
