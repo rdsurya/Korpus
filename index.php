@@ -75,31 +75,39 @@ if (isset($_SESSION['id'])) {
                     }
                     ?>
                     <div class="row">
-                        <form id="form1" name="form1" method="post" action="">
-                            <p>
-                                <label for="search"></label>
-                            </p>
 
-                            <table width="90%" border="1" align="center">
-
+                        <table width="99%" border="1" align="center">
+                            <thead>
                                 <tr>
-                                    <td colspan="4"><p>
-                                            <label for="search2"></label>
-                                            <input type="text" name="search" id="search2" />
-                                            <input type="submit" name="search2" id="search" value="search" />
-                                        </p>
-                                        <p>&nbsp; </p>
+                                    <td colspan="5">
+                                        <div class="form-group pull-left" style="width: 40%; padding: 15px;">
+                                            <label class="col-md-2 control-label" for="appendedtext">Search word:</label>
+                                            <div class="col-md-5">
+                                                <div class="input-group">
+                                                    <input name="appendedtext" class="form-control" placeholder="word?" type="text" id="searchKey"/>
+                                                    <div class="input-group-btn">
+                                                        <button class="btn btn-default" id="btnSearch"><i class="fa fa-search"></i> Search</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td width="125"><center>DATE</center></td>
-                                    <td width="170"><center>FILE LOCATION</center></td>
-                                    <td width="157"><center>CATEGORY</center></td>
-                                    <td width="504"><center>CONTEXT</center></td>
-
+                                <tr  style="background: #333366; color: white;">
+                                    <td width="5%"><center>DATE</center></td>
+                                    <td width="20%"><center>TITLE</center></td>
+                                    <td width="10%"><center>CATEGORY</center></td>
+                                    <td width="5%"><center>FREQUENCY</center></td>
+                                    <td><center>CONTEXT</center></td>
                                 </tr>
-                            </table>
-                        </form>
+                            </thead>
+                            <tbody id="theContent">
+
+                            </tbody>
+
+                        </table>
+
                     </div>
                 </div>
             </div>
@@ -197,10 +205,32 @@ if (isset($_SESSION['id'])) {
 
                                     });
 
-
                                     function clear() {
                                         $('#loginForm')[0].reset();
                                     }
+                                    
+                                    //search word on click
+                                    $('#btnSearch').on('click', function(){
+                                        var key = $('#searchKey').val();
+                                        if(key === "" || key.trim().split(" ").length > 1){
+                                            alert("Please enter a word!");
+                                        }
+                                        else{
+                                            $.ajax({
+                                                type: 'POST',
+                                                data: {key:key},
+                                                timeout: 5000,
+                                                url: "word/process.php",
+                                                success: function (data, textStatus, jqXHR) {
+                                                    $('#theContent').html(data);
+                                                },
+                                                error: function (err, status, errorThrown) {
+                                                    alert(errorThrown);
+                                                    console.log("error");
+                                                }
+                                            });
+                                        }
+                                    });
         </script>
     </body>
 </html>

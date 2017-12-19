@@ -1,7 +1,9 @@
 <?php
 require '../class/connect.php';
 
-$sql = "SELECT id,title,category FROM news;";
+$sql = "SELECT n.id,n.title,n.category, date_format(n.created_date, '%d-%m-%Y') as tarikh, a.name "
+        . "FROM news n "
+        . "LEFT JOIN admin a on a.username=n.created_by;";
 
 $result = mysqli_query($link, $sql);
 ?>
@@ -9,16 +11,20 @@ $result = mysqli_query($link, $sql);
     <thead>
         <tr>
             <th>ID</th>
+            <th>Date</th>
             <th>Title</th>
             <th>Category</th>
+            <th>Uploaded By</th>
             <th>Action</th>
         </tr>
     </thead>
     <tfoot>
         <tr>
-             <th>ID</th>
+            <th>ID</th>
+            <th>Date</th>
             <th>Title</th>
             <th>Category</th>
+            <th>Uploaded By</th>
             <th>Action</th>
         </tr>
     </tfoot>
@@ -28,8 +34,10 @@ $result = mysqli_query($link, $sql);
             ?>
             <tr>
                 <td ><?= $obj->id ?></td>
+                <td ><?= $obj->tarikh ?></td>
                 <td ><?= $obj->title ?></td>
                 <td ><?= $obj->category ?></td>
+                <td ><?= $obj->name ?></td>
                 <td>
                     <input type="hidden" id="b_obj" value='<?= json_encode($obj) ?>'>
                     <div class="btn-group">

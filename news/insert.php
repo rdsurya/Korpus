@@ -1,12 +1,12 @@
 <?php
-
+session_start();
 require "../class/connect.php";
 
 $reply = new stdClass();
 $reply->valid = false;
 $reply->msg = "Incomplete data";
 
-
+$username = $_SESSION['username'];
 
 if (isset($_POST['title']) && isset($_POST['category']) && isset($_POST['content'])) {
 
@@ -16,7 +16,7 @@ if (isset($_POST['title']) && isset($_POST['category']) && isset($_POST['content
     $content = mysqli_real_escape_string($link, $_POST['content']);
 
 
-    $sql = "INSERT INTO news(title, category, content) VALUES('$title','$category','$content');";
+    $sql = "INSERT INTO news(title, category, content, created_date, created_by) VALUES('$title','$category','$content', now(), '$username');";
 
     if (mysqli_query($link, $sql)) {
         $reply->valid = true;
